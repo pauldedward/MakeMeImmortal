@@ -191,7 +191,7 @@ function changeCanvasSize()
     }
     if(turnedSmall)
     {
-        resizeCanvas(325,375);
+        resizeCanvas(300,350);
     }
 }
 
@@ -215,7 +215,7 @@ function translateInfo()
         }
         else
         {
-            infosection.style.transform = 'translate(0,-95vh)'
+            infosection.style.transform = 'translate(0,93vh)'
             translatedinfovisible = false;
 
             makeHidden();
@@ -262,7 +262,7 @@ function checkCanvasSize()
             }
             else
             {
-                infosection.style.transform = 'translate(0,-95vh)'
+                infosection.style.transform = 'translate(0,93vh)'
 
                 makeHidden();
             }
